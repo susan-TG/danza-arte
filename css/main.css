@@ -1,1 +1,81 @@
 /* Inserta tu codigo aqui */
+.titulo h1 {
+	text-align: center;
+	margin-left: 20px;
+	padding-top: 10px;
+}
+nav, li {
+	display: inline;
+	text-align: center;
+	
+	padding-left: 30px;
+	margin-right: 24px;
+	
+}
+nav a {
+	text-decoration: none;
+}
+section .studio {
+	background: url(../img/dance_1.jpg);
+	width: 100%;
+	height: 400px;
+	color: white;
+}
+.studio h1 {
+	padding-left: 150px;
+	padding-top: 100px;
+	font-size: 60px;
+}
+.studio p {
+	padding-left: 150px;
+	padding-top: 0px;
+	font-size: 12px;
+	width: 180px;
+}
+.studio h3 {
+	padding-left: 170px;
+	padding-top: 30px;
+	font-size: 12px;
+	width: 100px;
+}
+.oferta p {
+	text-align: center;
+	margin-top: 80px;
+	padding-left: 320px;
+	padding-right: 320px;
+	padding-bottom: 0;
+	font-size: 20px;
+
+}
+.oferta img {
+	margin-left: 580px;
+	width: 200px;
+	height: 200px;
+	padding-top: 0;
+}
+.oferta h3 {
+	text-align: center;
+	padding-left: 40px;
+	font-size: 12px;
+	padding-top: 0px;
+	padding-bottom: 60px;
+}
+.instructores img {
+    width: 664px;
+    height:400px;
+    float: left;
+    border: 1px solid black;
+}
+.instructores h3 {
+	position: absolute;
+	left: 600px;
+	font-size: 12px;
+	color: white;
+}
+.instructores {
+	position: relative;
+}
+.poema p {
+	text-align: center;
+	margin-top: 80px;
+}
