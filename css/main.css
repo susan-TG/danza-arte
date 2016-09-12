@@ -4,6 +4,8 @@
 	margin-top: 50px;
 	margin-bottom: 0;
 	color: #0F023F;
+	padding-left: 50px;
+	padding-right: 10px;
 }
 #menu li {
 	display: inline;
@@ -45,6 +47,7 @@
 	text-align: center;
 	margin-top: 80px;
 	font-size: 20px;
+	color: #0F023F;
 
 }
 #deco {
@@ -59,15 +62,15 @@
 	padding-bottom: 60px;
 	padding-top: 0;	
 }
-.boton-oferta {
-	background-color: #0F023F;
-	bottom: 0px;
-	border-radius: 4px;
-	left: 800px;
-	height: 50px;
-	width: 200px;
-	color: white;
+.col, .boton-oferta h3 {
 	text-align: center;
+	color: white;
+}
+#boton-oferta {
+	background: #0F023F;
+	width: 30px;
+	height: 40px;
+	margin-bottom: 40px;
 }
 .grid-noGutter-noBottom #left {
 	background: url(../img/instructor_4.jpg) no-repeat;
@@ -98,10 +101,13 @@
 	border-radius: 4px;
 	left: 520px;
 	height: 50px;
-	width: 300px;
+	width: 400px;
 }
 .poema {
 	background: url(../img/textura_2.jpg);
+}
+.poema p {
+	color: #0F023F;
 }
 .poema .col p {
 	text-align: center;
@@ -118,4 +124,7 @@
 	color: white;
 	top: 50px;
 	left: 50px;
+}
+.visitanos p, iframe {
+	display: inline-block;
 }
