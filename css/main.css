@@ -1,25 +1,25 @@
 /* Inserta tu codigo aqui */
 .titulo h1 {
 	text-align: center;
-	margin-left: 20px;
-	padding-top: 10px;
+	margin-top: 50px;
+	margin-bottom: 0;
+	color: #0F023F;
 }
-nav, li {
+#menu li {
 	display: inline;
-	text-align: center;
-	
-	padding-left: 30px;
-	margin-right: 24px;
-	
 }
-nav a {
+#menu ul {
+	text-align: center;	
+}
+#menu a {
 	text-decoration: none;
+	margin: 0 30px 0 30px;
+	color: #A4A2A2;
 }
-section .studio {
+#fondo {
 	background: url(../img/dance_1.jpg);
-	width: 100%;
-	height: 400px;
 	color: white;
+	padding-bottom: 60px;
 }
 .studio h1 {
 	padding-left: 150px;
@@ -36,46 +36,86 @@ section .studio {
 	padding-left: 170px;
 	padding-top: 30px;
 	font-size: 12px;
-	width: 100px;
+	
+}
+.oferta {
+	background: url(../img/textura_2.jpg);
 }
 .oferta p {
 	text-align: center;
 	margin-top: 80px;
-	padding-left: 320px;
-	padding-right: 320px;
-	padding-bottom: 0;
 	font-size: 20px;
 
 }
-.oferta img {
-	margin-left: 580px;
+#deco {
+	text-align: center;
+}
+#deco img {
 	width: 200px;
-	height: 200px;
-	padding-top: 0;
 }
 .oferta h3 {
 	text-align: center;
-	padding-left: 40px;
 	font-size: 12px;
-	padding-top: 0px;
 	padding-bottom: 60px;
+	padding-top: 0;	
 }
-.instructores img {
-    width: 664px;
-    height:400px;
-    float: left;
-    border: 1px solid black;
-}
-.instructores h3 {
-	position: absolute;
-	left: 600px;
-	font-size: 12px;
+.boton-oferta {
+	background-color: #0F023F;
+	bottom: 0px;
+	border-radius: 4px;
+	left: 800px;
+	height: 50px;
+	width: 200px;
 	color: white;
+	text-align: center;
 }
-.instructores {
+.grid-noGutter-noBottom #left {
+	background: url(../img/instructor_4.jpg) no-repeat;
+	background-size: 100% auto;
+}
+.grid-noGutter-noBottom #right {
+	background: url(../img/profesor_9.jpg) no-repeat;
+	background-size: 100% auto;
+}
+.grid-noGutter-noBottom .col {
+	border: 1px solid #0F023F;
+	height: 340px;
+}
+.profes h3 {
+	
+	text-align: center;
+	color: white;
+	font-size: 14px;
+
+}
+.profes  {
 	position: relative;
 }
-.poema p {
+.boton-profes {
+	position: absolute;
+	background-color: #0F023F;
+	bottom: 0px;
+	border-radius: 4px;
+	left: 520px;
+	height: 50px;
+	width: 300px;
+}
+.poema {
+	background: url(../img/textura_2.jpg);
+}
+.poema .col p {
 	text-align: center;
 	margin-top: 80px;
+	font-size: 40px;
+}
+.visitanos {
+	background: #0F023F;
+}
+#textos, #mapa {
+	display: inline-block;
+}
+.visitanos #textos {
+	color: white;
+	top: 50px;
+	left: 50px;
 }
